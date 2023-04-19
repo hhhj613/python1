@@ -66,7 +66,9 @@ for i, (name, score) in enumerate(sorted_scores):
 ...
 
 #커피자판기이야기2
-ccoffee = 10
+
+
+coffee = 10
 while True:
     money = int(input("돈을 넣어 주세요: "))
     if money == 300:
