@@ -52,6 +52,8 @@ for i, (name, score) in enumerate(sorted_scores):
     
     
     #커피자판기이야기
+    
+    
     coffee = 10
 >>> money = 300
 >>> while money:
