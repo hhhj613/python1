@@ -98,3 +98,20 @@ a = [1,2,3,4]
 result = [x*y for x in range(2,10,2)
 ...               for y in range(1,10)]
 >>> print(result)
+
+
+
+#구구단
+
+gugudan = []
+
+for i in range(2, 10):  # 2부터 9단까지
+    row = []  # 한 단의 결과를 담을 리스트
+    for j in range(1, 10):  # 1부터 9까지 곱셈
+        row.append(i * j)  # 결과를 리스트에 추가
+    gugudan.append(row)  # 한 단의 결과 리스트를 구구단 리스트에 추가
+
+# 구구단 출력
+for i in range(len(gugudan)):
+    for j in range(len(gugudan[i])):
+        print('{} x {} = {}'.format(i+2, j+1, gugudan[i][j]))
